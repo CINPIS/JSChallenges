@@ -1,0 +1,30 @@
+.controls{
+    margin-bottom: 50px;
+}
+
+.controls label{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+}
+
+.controls label input{
+    width: 200px;
+    margin-left: 1rem;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    height: 200px;
+    width: 350px;
+
+    border: var(--spacing) solid var(--base);
+    filter: blur(var(--blur));
+}

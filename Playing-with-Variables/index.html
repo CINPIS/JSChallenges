@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" 
+      type="image/png" 
+      href="./assets/favicon.ico">
+    
+    <title>Scoped CSS Variables & JS</title>
+
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/controls.css">
+    <link rel="stylesheet" href="./style/media.css">
+</head>
+<body>
+    <header>
+        <h1>Updating CSS Variables with JS</h1>
+    </header>
+    <main role="main">
+        <div class="controls">
+            <label for="spacing">Spacing
+                <input 
+                    type="range"
+                    name="spacing"
+                    min="0"
+                    max="100"
+                    value="10"
+                    data-sizing="px"
+                    data-name="cinpis"
+                    data-cool=#128508
+                >
+            </label>
+            <label for="blur">Blur
+                <input 
+                    type="range"
+                    name="blur"
+                    min="0"
+                    max="25"
+                    value="10"
+                    data-sizing="px"
+                >
+            </label>
+            <label for="base">Base
+                <input 
+                    type="color"
+                    name="base"
+                    value="#FFF"
+                >
+            </label>
+        </div>
+
+        <div class="image">
+            <img src="./assets/prainha.JPG" alt="Foto">
+        </div>
+    </main>
+    <footer id="footer">
+        <a href="#oi">
+            <a href="https://github.com/CINPIS">
+                <img src="./assets/logo-cin.png" alt="logo">
+            </a>
+        </a>
+        <hr/>
+        <p class="footer"> © 2020 </p>
+    </footer>
+
+<script src="./index.js"></script>
+</body>
+</html>

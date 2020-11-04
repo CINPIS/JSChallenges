@@ -1,0 +1,16 @@
+@media (max-width: 900px ){
+    .controls label{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+@media (max-width: 350px){
+    .controls label input{
+        width: 100px;
+    }
+    .image img{
+        width: 150px;
+        height: 100px;
+    }
+}
